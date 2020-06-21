@@ -1,0 +1,13 @@
+
+@media all and (max-width: 800px){
+    .menu-titles{
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 500px){
+    .menu-titles{
+        flex-direction: column;
+        text-align: center;
+    }
+}

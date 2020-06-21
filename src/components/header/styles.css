@@ -1,0 +1,35 @@
+.header-container{
+    max-height: fit-content;
+}
+
+.segment-container{
+    /* background-image: url("../../assets/images/background.png");
+    image-resolution: initial; */
+    background-color: rgb(67, 63, 191);
+    border-radius: 35px;
+    margin-top: 80px;
+
+}
+
+
+.g-col-container{
+    margin: 80px;
+}
+
+.link-text{
+    flex: 1;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container{
+    padding-top: 10px;
+}
+
+.image-container :hover{
+    cursor: pointer;
+}

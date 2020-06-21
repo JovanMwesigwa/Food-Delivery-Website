@@ -1,0 +1,35 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.innercontainer{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.innercontainer button{
+    color: #F39C12;
+    /* background-color: #F39C12; */
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 60px;
+    border-color: #F39C12;
+    padding: 10px;
+    outline: none;
+
+}
+
+.innercontainer h1{
+    color: rgb(67, 63, 191);
+    font-weight: bold;
+}
